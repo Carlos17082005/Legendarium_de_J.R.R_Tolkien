@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legendarium</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <button id="boton_menu" class="boton_menu">☰</button>
+            <button id="logo" class="logo"><img src="img/logo.png"></button>
+            <h1 id="titulo_general">Legendarium de J.R.R Tolkien</h1>
+        </div>
+    </header>
+
+    <div id="overlay" class="overlay"></div>
+
+    <div id="contenido" class="contenido menu_oculto">
+        <nav class="menu" id="menu">
+            <button class="menu_header" data-seccion="inicio">Legendarium</button>
+
+            <div class="separador">Libros</div>
+            <button class="elemento_menu" data-seccion="libro" data-id="0">El Hobbit</button><br>
+            <button class="elemento_menu" data-seccion="libro" data-id="1">El Señor de los Anillos: La Comunidad del Anillo</button><br>
+            <button class="elemento_menu" data-seccion="libro" data-id="2">El Señor de los Anillos: Las dos Torres</button><br>
+            <button class="elemento_menu" data-seccion="libro" data-id="3">El Señor de los Anillos: El Retorno del Rey</button>
+
+            <div class="separador">Extra</div>
+            <button class="elemento_menu" data-seccion="otros">Otras Obras</button>
+        </nav>
+
+        <main>
+            <div id="contenido_container"></div>
+            <div id="personajes_grid" class="personajes_grid"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+Esta incompleto, le falta estilo de las imagenes, agregar tarjetas 
+(que la info salga en un cuadrado de distinto color), personajes y razas
++ Añadir que automaticamente al cambiar de pagina vuelva al inicio de la 
+pagina, ahora se queda donde acaba el scroll
++ Añadir que el menu se cierre de forma automatica al cambiar de pagina
++ Responcive
+Revisar estructura JSON para ver si se puede simplificar
+Hacer lo mismo con react (frankwork)
+-->

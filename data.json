@@ -1,0 +1,569 @@
+{
+    "inicio": {
+        "titulo_general": "Legendarium de J.R.R Tolkien",
+        "apartados": [
+            {
+                "titulo": "El Señor de los Anillos, y la obra de J.R.R. Tolkien",
+                "contenido": [
+                    "&quot;El Señor de los Anillos&quot; es una épica de fantasía escrita por &quot;John Ronald Reuel Tolkien&quot; (J.R.R. Tolkien) que narra la lucha contra el mal en la Tierra Media, un mundo habitado por diversas razas como hobbits, elfos, enanos, hombres y criaturas oscuras. La historia comienza cuando un joven hobbit, Frodo Bolsón, hereda un anillo mágico de su tío Bilbo. Este anillo resulta ser el Anillo Único, creado por el Señor Oscuro Sauron con el fin de dominar toda la Tierra Media. El mago Gandalf descubre que el anillo debe ser destruido para evitar que Sauron recupere su poder y vuelva a conquistar el mundo.",
+                    "Frodo, junto a sus amigos hobbits Sam, Merry y Pippin, y un grupo diverso de compañeros que incluye a Aragorn, un guerrero humano y heredero del trono de Gondor, el elfo Legolas, el enano Gimli, y el mago Gandalf, forma una comunidad destinada a llevar el anillo a Mordor, la tierra de Sauron, para destruirlo en el Monte del Destino, el lugar donde fue forjado.",
+                    "A lo largo del viaje, la Comunidad se enfrenta a innumerables peligros, desde orcos y criaturas oscuras hasta la corrupción del propio anillo, que pone a prueba la lealtad de los miembros del grupo. Frodo y Sam, con la ayuda de Gollum, una criatura que ha estado bajo el influjo del anillo durante siglos, logran llegar a Mordor, mientras los demás luchan en batallas cruciales para desviar la atención de Sauron. Mientras tanto, Aragorn y los ejércitos de los hombres, los elfos y los enanos defienden los reinos libres de la Tierra Media contra las fuerzas de Sauron y su aliado Saruman, un mago que ha caído bajo su influencia.",
+                    "La batalla culmina con la destrucción del anillo cuando Gollum, en su afán por recuperar el objeto, cae en el fuego del Monte del Destino, acabando con Sauron y su dominio. La victoria de los pueblos libres es celebrada, y la paz regresa a la Tierra Media.",
+                    "Tras la guerra, Frodo y sus compañeros regresan a la Comarca, pero Frodo, marcado por la experiencia, se ve incapaz de volver a una vida normal. Finalmente, decide embarcarse hacia las Tierras Imperecederas, un lugar donde los elfos viven en paz, dejando atrás un mundo que ha cambiado para siempre.",
+                    "&quot;El Señor de los Anillos&quot; es una historia sobre la lucha contra el mal, la resistencia ante la corrupción del poder y la importancia de la amistad y el sacrificio, que nos recuerda que incluso el más pequeño de los seres puede tener un impacto significativo en el destino del mundo."
+                ],
+                "imagen": {
+                    "url": "./img/libros.png",
+                    "style": ""
+                }
+            },
+            {
+                "titulo": "J.R.R. Tolkien",
+                "contenido": [
+                    "J.R.R. Tolkien (1892-1973) fue un escritor, poeta, filólogo y profesor universitario británico, mundialmente reconocido como el padre de la literatura moderna de fantasía. Nació en Bloemfontein, Sudáfrica, aunque pasó la mayor parte de su vida en Inglaterra, donde desarrolló una profunda pasión por los idiomas y las mitologías. Estudió en la Universidad de Oxford, donde se especializó en lenguas y literatura anglosajona.",
+                    "Tolkien es más conocido por su obra El Hobbit (1937) y por la trilogía El Señor de los Anillos (1954-1955), dos de las más influyentes obras de fantasía de todos los tiempos. A lo largo de su vida, creó un vasto mundo ficticio, la Tierra Media, poblado por razas como elfos, hobbits, enanos y orcos, y lleno de mitologías, lenguas y culturas originales. Su trabajo no solo redefinió el género de fantasía, sino que también influyó profundamente en la literatura posterior.",
+                    "Además de su trabajo literario, Tolkien fue profesor de anglosajón en la Universidad de Oxford y un experto en lenguas medievales. Su amor por la literatura antigua y las lenguas lo inspiró a crear complejas lenguas ficticias como el élfico (Quenya y Sindarin), que enriquecen la narrativa de sus obras.",
+                    "A lo largo de su vida, Tolkien recibió numerosos premios y reconocimientos por su contribución a la literatura. Su legado sigue vivo, ya que sus obras han sido adaptadas al cine, la televisión y han inspirado generaciones de escritores y lectores."
+                ],
+                "imagen": {
+                    "url": "./img/autor.png",
+                    "style": ""
+                }
+            },
+            {
+                "titulo": "Principales obras de J.R.R. Tolkien",
+                "contenido": [
+                    {
+                        "tipo": "tabla",
+                        "lineas": [
+                            {
+                                "titulo": "El Hobbit",
+                                "imagen": {
+                                    "url": "./img/libro0.png",
+                                    "style": ""
+                                },
+                                "info": {
+                                    "titulo_original": "The Hobbit, or There and Back Again",
+                                    "fecha": "1937",
+                                    "genero": "Novela de fantasía",
+                                    "sinopsis": "Relata la aventura de Bilbo Bolsón, un hobbit que se ve inesperadamente envuelto en una expedición liderada por el mago Gandalf y un grupo de enanos para recuperar un reino y un tesoro usurpados por el dragón Smaug. A lo largo del viaje, Bilbo experimenta un profundo crecimiento personal y entra en contacto con elementos fundamentales de la mitología de la Tierra Media, como el Anillo Único.",
+                                    "importancia": "Funciona como la puerta de entrada al legendarium de Tolkien. Introduce de forma accesible el mundo de la Tierra Media y sienta las bases narrativas y temáticas de las obras posteriores."
+                                }
+                            },
+                            {
+                                "titulo": "El Señor de los Anillos",
+                                "imagen": {
+                                    "url": "./img/libro1.png",
+                                    "style": ""
+                                },
+                                "info": {
+                                    "titulo_original": "The Lord of the Rings",
+                                    "fecha": "1954–1955 (publicada en tres volúmenes)",
+                                    "volumenes": [
+                                        "La Comunidad del Anillo (The Fellowship of the Ring) – 1954",
+                                        "Las Dos Torres (The Two Towers) – 1954",
+                                        "El Retorno del Rey (The Return of the King) – 1955"
+                                    ],
+                                    "genero": "Novela épica de fantasía",
+                                    "sinopsis": "Narra la misión de Frodo Bolsón y la Comunidad del Anillo para destruir el Anillo Único, objeto en el que Sauron ha concentrado su poder. La obra desarrolla múltiples tramas paralelas que abarcan gran parte de la Tierra Media y explora temas como el poder, la corrupción, el sacrificio, la amistad y la esperanza frente a la oscuridad.",
+                                    "importancia": "Es la obra central del legado de Tolkien y una de las novelas más influyentes del siglo XX. Definió los cimientos de la fantasía épica moderna y consolidó la Tierra Media como uno de los universos literarios más complejos jamás creados."
+                                }
+                            },
+                            {
+                                "titulo": "El Silmarillion",
+                                "imagen": {
+                                    "url": "./img/otrosLibros1.png",
+                                    "style": ""
+                                },
+                                "info": {
+                                    "titulo_original": "The Silmarillion",
+                                    "fecha": "1977 (publicación póstuma, editada por Christopher Tolkien)",
+                                    "genero": "Mitología ficticia, historia épica",
+                                    "sinopsis": "Es una recopilación de relatos que describen la creación del mundo de la Tierra Media y los acontecimientos de la Primera Edad. La obra se centra en los Silmarils, tres joyas creadas por el elfo Fëanor, y en las guerras, traiciones y tragedias que surgen en torno a ellas. También aborda el origen de los elfos, los enanos y los hombres, así como el primer ascenso y caída de Sauron.",
+                                    "importancia": "Proporciona el trasfondo mitológico y cosmológico del universo de Tolkien. Amplía y da profundidad histórica a los acontecimientos narrados en El Hobbit y El Señor de los Anillos."
+                                }
+                            },
+                            {
+                                "titulo": "Cuentos inconclusos de Númenor y la Tierra Media",
+                                "imagen": {
+                                    "url": "./img/otrosLibros2.png",
+                                    "style": ""
+                                },
+                                "info": {
+                                    "titulo_original": "Unfinished Tales of Númenor and Middle-earth",
+                                    "fecha": "1980 (publicación póstuma, editada por Christopher Tolkien)",
+                                    "genero": "Fantasía, mitología ficticia",
+                                    "sinopsis": "Reúne una serie de relatos inacabados y textos fragmentarios que amplían episodios y personajes de la Tierra Media. Abarca desde la Primera hasta la Tercera Edad e incluye versiones alternativas y detalles adicionales sobre figuras clave como Gandalf, Galadriel y Númenor.",
+                                    "importancia": "Complementa las grandes obras narrativas de Tolkien, ofreciendo información adicional y perspectivas inéditas que enriquecen la comprensión global de su mitología."
+                                }
+                            },
+                            {
+                                "titulo": "La Historia de la Tierra Media",
+                                "imagen": {
+                                    "url": "./img/otrosLibros3.jpg",
+                                    "style": ""
+                                },
+                                "info": {
+                                    "titulo_original": "The History of Middle-earth",
+                                    "fecha": "1983–1996 (publicación póstuma, editada por Christopher Tolkien)",
+                                    "volumenes": [
+                                        "El Libro de los Cuentos Perdidos I (The Book of Lost Tales, Part One) – 1983",
+                                        "El Libro de los Cuentos Perdidos II (The Book of Lost Tales, Part Two) – 1984",
+                                        "Las Baladas de Beleriand (The Lays of Beleriand) – 1985",
+                                        "La Formación de la Tierra Media (The Shaping of Middle-earth) – 1986",
+                                        "El Camino Perdido y otros escritos (The Lost Road and Other Writings) – 1987",
+                                        "El Retorno de la Sombra (The Return of the Shadow) – 1988",
+                                        "La Traición de Isengard (The Treason of Isengard) – 1989",
+                                        "La Guerra del Anillo (The War of the Ring) – 1990",
+                                        "Sauron derrotado (Sauron Defeated) – 1992",
+                                        "El Anillo de Morgoth (Morgoth’s Ring) – 1993",
+                                        "La Guerra de las Joyas (The War of the Jewels) – 1994",
+                                        "Los Pueblos de la Tierra Media (The Peoples of Middle-earth) – 1996"
+                                    ],
+                                    "genero": "Mitología ficticia, ensayo literario, historia editorial",
+                                    "sinopsis": "Es una colección de doce volúmenes que recopila y analiza los manuscritos, borradores y versiones alternativas de las historias de la Tierra Media. La obra muestra la evolución del legendarium de Tolkien a lo largo de su vida, desde los primeros mitos hasta las versiones finales de sus obras más conocidas.",
+                                    "importancia": "Constituye la fuente más completa para estudiar el proceso creativo de Tolkien. Es esencial para lectores avanzados y estudiosos interesados en la profundidad, coherencia y evolución interna del mundo de la Tierra Media."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "0": {
+        "titulo_general": "El Hobbit",
+        "apartados": [
+            {
+                "contenido": [
+                    "El Hobbit, escrito por J.R.R. Tolkien y publicado en 1937, narra la historia de Bilbo Bolsón, un hobbit que vive una vida tranquila en la Comarca, hasta que un día el mago Gandalf llega a su puerta con una propuesta inesperada. Gandalf lo recluta para unirse a una compañía de trece enanos liderados por Thorin Escudo de Roble, cuyo objetivo es recuperar su hogar y tesoro en la Montaña Solitaria, que fue usurpado por el dragón Smaug.",
+                    "Al principio, Bilbo es reacio a unirse a la aventura, ya que los hobbits prefieren la paz y la comodidad, pero eventualmente se embarca en el viaje. A lo largo del camino, la compañía enfrenta numerosos peligros: trolls, orcos, wargos (lobos gigantes) y criaturas del bosque. En uno de esos encuentros, Bilbo se separa del grupo en una cueva y se encuentra con Gollum, una criatura extraña y solitaria que vive en las profundidades. En ese momento, Bilbo descubre un anillo mágico que tiene el poder de hacer invisible a quien lo porta, aunque desconoce su importancia.",
+                    "El viaje continúa y la compañía llega al Bosque Negro, donde son capturados por arañas gigantes y luego prisioneros de los elfos del bosque. Bilbo, usando su ingenio y el anillo, ayuda a sus compañeros a escapar. Finalmente, llegan a la Ciudad del Lago, cerca de la Montaña Solitaria. Con la ayuda de Bilbo, los enanos entran en la montaña y él se encuentra cara a cara con el dragón Smaug, quien guarda celosamente el tesoro. Bilbo, con astucia, obtiene información vital sobre el punto débil de Smaug y se lo cuenta a los hombres de la Ciudad del Lago.",
+                    "Smaug, furioso, vuela para atacar la ciudad, pero es abatido por Bard, un arquero humano, que dispara a la parte vulnerable que Bilbo había señalado. Tras la muerte de Smaug, comienza un conflicto entre los hombres, los elfos y los enanos por el tesoro. Justo cuando la guerra parece inminente, llegan los orcos y wargos, lo que obliga a las tres facciones a unirse para luchar contra el enemigo común en la llamada &quot;Batalla de los Cinco Ejércitos&quot;. Aunque los aliados logran vencer, Thorin muere en la batalla.",
+                    "Tras la victoria, Bilbo rechaza la mayor parte del tesoro y decide regresar a su hogar en la Comarca. Después de su regreso, Bilbo vuelve a su vida pacífica, aunque mucho más sabio y con el anillo mágico, que más tarde tendrá un papel crucial en El Señor de los Anillos."
+                ],
+                "imagen": {
+                    "url": "./img/libro0.png",
+                    "style": ""
+                }
+            },
+            {
+                "titulo": "Adaptaciones al cine",
+                "contenido": [
+                    "&quot;El Hobbit&quot; ha sido adaptado al cine en una única serie de películas, pero dividida en tres entregas, dirigidas por Peter Jackson. Estas películas fueron concebidas como una trilogía, a pesar de que el libro original es una obra mucho más corta en comparación con El Señor de los Anillos.",
+                    "Las películas son las siguientes:",
+                    {
+                        "tipo": "lista",
+                        "lineas": [
+                            {
+                                "li": "El Hobbit: Un viaje inesperado (The Hobbit: An Unexpected Journey) – 2012",
+                                "dd": "La primera entrega presenta la partida de Bilbo Bolsón con la compañía de enanos liderada por Thorin Escudo de Roble, y su encuentro con criaturas como trolls, orcos y Gollum."
+                            },
+                            {
+                                "li": "El Hobbit: La desolación de Smaug (The Hobbit: The Desolation of Smaug) – 2013",
+                                "dd": "En esta segunda parte, Bilbo y los enanos continúan su viaje hacia la Montaña Solitaria y Bilbo se enfrenta al dragón Smaug."
+                            },
+                            {
+                                "li": "El Hobbit: La batalla de los cinco ejércitos (The Hobbit: The Battle of the Five Armies) – 2014",
+                                "dd": "La película final muestra las consecuencias del despertar de Smaug y la gran batalla entre varias fuerzas por el tesoro de la montaña, mientras Sauron va ganando poder en la Tierra Media."
+                            }
+                        ]
+                    }
+                ],
+                "imagen": {
+                    "url": "./img/peli0.png",
+                    "style": ""
+                }
+            }
+        ]
+    },
+    "1": {
+        "titulo_general": "El Señor de los Anillos: La Comunidad del Anillo",
+        "apartados": [
+            {
+                "contenido": [
+                    "El Señor de los Anillos: La Comunidad del Anillo comienza en la pacífica región de la Comarca, donde el hobbit Frodo Bolsón hereda el Anillo Único de su tío, Bilbo Bolsón. El Anillo, aparentemente inofensivo, es en realidad un objeto de inmenso poder creado por el Señor Oscuro Sauron, quien lo utilizó para dominar la Tierra Media. Tras ser perdido durante siglos, el Anillo ha reaparecido, y Sauron lo busca desesperadamente para recuperar su poder y esclavizar a todos los pueblos libres.",
+                    "Gandalf el Gris, un mago y amigo de la familia Bolsón, descubre la verdadera naturaleza del Anillo y advierte a Frodo sobre el peligro que representa. Para evitar que caiga en manos de Sauron, Gandalf aconseja a Frodo que deje la Comarca y viaje a Rivendel, el reino de los elfos. Frodo parte con sus amigos hobbits Sam, Merry y Pippin, perseguidos por los Nazgûl, espectros de Sauron que buscan el Anillo.",
+                    "En su camino, los hobbits se encuentran con Aragorn, también conocido como Trancos, un montaraz y heredero del trono de Gondor. Aragorn los protege y los guía hasta Rivendel. Allí, se forma un consejo presidido por Elrond, el líder élfico, donde representantes de los elfos, los enanos y los hombres discuten qué hacer con el Anillo. Se decide que el Anillo debe ser destruido, lo cual solo es posible lanzándolo en los fuegos del Monte del Destino, el volcán en el que fue forjado.",
+                    "Así, se forma la Comunidad del Anillo, un grupo de nueve miembros que acompañarán a Frodo en su misión: los hobbits Frodo, Sam, Merry y Pippin; Aragorn; el elfo Legolas; el enano Gimli; el guerrero humano Boromir; y Gandalf. Su objetivo es proteger a Frodo y ayudarlo a llegar a Mordor, el dominio de Sauron, donde se encuentra el Monte del Destino.",
+                    "A lo largo del camino, la Comunidad enfrenta numerosos peligros, desde las traiciones de Saruman, un mago que ha caído bajo la influencia de Sauron, hasta el peligroso paso por las minas de Moria, un antiguo reino enano. En Moria, Gandalf enfrenta a un poderoso demonio, el Balrog, y cae en el abismo, lo que deja a la Comunidad sin su guía más poderoso.",
+                    "Después de la pérdida de Gandalf, la Comunidad continúa su viaje hacia el reino élfico de Lothlórien, donde son recibidos por la elfa Galadriel. A pesar de la tregua temporal, el poder del Anillo empieza a afectar a los miembros del grupo, especialmente a Boromir, quien desea usar el Anillo para salvar a su reino. Finalmente, en un momento de desesperación, Boromir intenta tomar el Anillo de Frodo, pero éste, dándose cuenta del peligro que representa para sus amigos, decide continuar solo hacia Mordor. Sin embargo, Sam lo sigue lealmente, y juntos prosiguen el viaje."
+                ],
+                "imagen": {
+                    "url": "./img/libro1.png",
+                    "style": ""
+                }
+            },
+            {
+                "titulo": "Adaptaciones al cine",
+                "contenido": [
+                    "&quot;El Señor de los Anillos: La Comunidad del Anillo&quot; ha tenido una única adaptación cinematográfica, que es la primera de las tres películas basadas en la trilogía de El Señor de los Anillos, dirigidas por Peter Jackson. Esta adaptación se estrenó en 2001. La película sigue la historia de Frodo Bolsón, un hobbit que hereda el Anillo Único, un objeto de inmenso poder forjado por el malvado Sauron para dominar la Tierra Media.",
+                    "Frodo es encargado de llevar el Anillo a Mordor, el único lugar donde puede ser destruido. Para protegerlo en su peligrosa misión, se forma la Comunidad del Anillo, un grupo diverso compuesto por hobbits, hombres, elfos, enanos y un mago, cada uno con habilidades y motivaciones únicas. A lo largo de su travesía, enfrentan diversos peligros, incluyendo los Nazgûl, el traidor Saruman y las trampas del Anillo, que corrompe a quien lo posee.",
+                    "La película combina impresionantes efectos visuales, paisajes espectaculares de Nueva Zelanda, y actuaciones notables que transmiten la lucha épica entre el bien y el mal, los dilemas personales, y el poder de la amistad. La Comunidad del Anillo fue aclamada tanto por críticos como por fans, recibiendo múltiples premios y estableciendo a Peter Jackson como uno de los grandes directores de cine épico.",
+                    {
+                        "tipo": "lista",
+                        "titulo": "Características de la adaptación:",
+                        "lineas": [
+                            {
+                                "li": "Película: El Señor de los Anillos: La Comunidad del Anillo (2001)"
+                            },
+                            {
+                                "li": "Dirección: Peter Jackson"
+                            },
+                            {
+                                "li": "Adaptación: Esta es una adaptación directa del primer libro de la trilogía, La Comunidad del Anillo, que presenta el viaje de Frodo Bolsón para destruir el Anillo Único y la formación de la comunidad compuesta por él y otros personajes como Aragorn, Gandalf, Legolas, Gimli, Boromir, y los hobbits Sam, Merry y Pippin."
+                            }
+                        ]
+                    },
+                    "Aunque ha habido algunas versiones posteriores de la película en diferentes formatos (por ejemplo, en edición extendida), la adaptación cinematográfica principal es una sola película, que cubre los eventos del primer libro de la trilogía de El Señor de los Anillos."
+                ],
+                "imagen": {
+                    "url": "./img/peli1.jpg",
+                    "style": ""
+                }
+            }
+        ]
+    },
+    "2": {
+        "titulo_general": "El Señor de los Anillos: La Comunidad del Anillo",
+        "apartados": [
+            {
+                "contenido": [
+                    "Las Dos Torres es el segundo libro de la trilogía de El Señor de los Anillos de J.R.R. Tolkien. La novela continúa inmediatamente después de los eventos de La Comunidad del Anillo y sigue a los personajes divididos en distintos grupos, luchando por sobrevivir y cumplir con sus misiones en la vasta Tierra Media.",
+                    "Después de la disolución de la Comunidad del Anillo, Aragorn, Legolas y Gimli siguen la pista de los orcos que han capturado a los hobbits Merry y Pippin. En su persecución, llegan al reino de Rohan, donde descubren que el rey Théoden ha caído bajo la influencia de su consejero, el siniestro Saruman, quien también ha estado manipulando a través de Gríma (Lengua de Serpiente). Saruman ha lanzado un ataque sobre Rohan con sus ejércitos de orcos y uruk-hai desde la torre de Orthanc en Isengard.",
+                    "Aragorn y sus compañeros liberan a Théoden de la influencia de Saruman con la ayuda de Gandalf, quien ha regresado como Gandalf el Blanco tras su batalla con el Balrog. Juntos, organizan la defensa de Rohan y llevan al rey y su pueblo a la fortaleza del Abismo de Helm. Allí se libra una gran batalla en la que las fuerzas de Rohan, con la ayuda de Gandalf y Éomer, sobrino de Théoden, logran derrotar a los ejércitos de Saruman.",
+                    "Tras la victoria en el Abismo de Helm, el grupo marcha a Isengard, donde descubren que Saruman ha sido derrotado por los ents, unas criaturas similares a árboles que, lideradas por Bárbol, han destruido Isengard. Merry y Pippin, que habían escapado de los orcos y se encontraron con los ents, participan en esta victoria. Saruman queda atrapado en la torre de Orthanc, y aunque Gandalf le ofrece la oportunidad de redimirse, Saruman se niega. Gandalf lo despoja de su poder como líder de los magos y Saruman queda derrotado, aunque aún conserva cierta astucia.",
+                    "Mientras tanto, Frodo y Sam continúan su peligrosa misión de llevar el Anillo Único a Mordor. En su camino, capturan a Gollum, una criatura corrompida por el Anillo que los ha estado siguiendo. Sam desconfía de Gollum, pero Frodo muestra compasión hacia él y lo convierte en su guía, ya que Gollum conoce los caminos secretos hacia Mordor. Gollum, dividido entre su lealtad a Frodo y su deseo de recuperar el Anillo, los lleva a través de los Páramos de Morgul y los ayuda a evitar a los sirvientes de Sauron.",
+                    "Frodo es herido y paralizado por Ella-Laraña, y Gollum lo abandona creyéndolo muerto. Sin embargo, Sam, con un coraje renovado, enfrenta a Gollum y a la araña, logrando ahuyentar a ambos. Al creer que Frodo ha muerto, Sam toma el Anillo y decide continuar la misión por sí mismo, aunque poco después descubre que Frodo sigue vivo, pero ha sido capturado por los orcos de Cirith Ungol."
+                ],
+                "imagen": {
+                    "url": "./img/libro2.png",
+                    "style": ""
+                }
+            },
+            {
+                "titulo": "Adaptaciones al cine",
+                "contenido": [
+                    "&quot;El Señor de los Anillos: Las Dos Torres&quot; ha tenido una única adaptación cinematográfica de gran escala, dirigida por Peter Jackson en 2002. Esta adaptación es la segunda película de la trilogía basada en los libros de El Señor de los Anillos de J.R.R. Tolkien.",
+                    "La película sigue la misión de Frodo y Sam para llevar el Anillo Único a Mordor, mientras Gollum se une a ellos como guía. Al mismo tiempo, Aragorn, Legolas, y Gimli se ven inmersos en la defensa del reino de Rohan, en especial durante la Batalla del Abismo de Helm, luchando contra las huestes de Saruman. Los ent, liderados por Bárbol, destruyen Isengard, mientras los hobbits Merry y Pippin juegan un papel clave en este proceso. La guerra en la Tierra Media se intensifica mientras las fuerzas del mal, dirigidas por Sauron y Saruman, se preparan para un conflicto definitivo.",
+                    {
+                        "tipo": "lista",
+                        "titulo": "Características de la adaptación:",
+                        "lineas": [
+                            {
+                                "li": "Película: El Señor de los Anillos: Las Dos Torres (2002)"
+                            },
+                            {
+                                "li": "Dirección: Peter Jackson"
+                            },
+                            {
+                                "li": "Adaptación: Esta es una adaptación directa del segundo libro de la trilogía, Las Dos Torres, que continúa con la separación de la Comunidad. Se centra en los esfuerzos de Aragorn, Legolas y Gimli para rescatar a los hobbits Merry y Pippin, quienes han sido capturados por los orcos. Paralelamente, sigue a Frodo y Sam en su peligroso viaje hacia Mordor, guiados por la criatura Gollum, mientras enfrentan diversas amenazas en su camino. La película también muestra la creciente guerra en la Tierra Media, con la batalla en el Abismo de Helm, donde las fuerzas de Rohan luchan contra los ejércitos de Saruman."
+                            }
+                        ]
+                    },
+                    "Aunque ha habido algunas versiones posteriores de la película en diferentes formatos (como la edición extendida), la adaptación cinematográfica principal es una sola película, que cubre los eventos del segundo libro de la trilogía de El Señor de los Anillos."
+                ],
+                "imagen": {
+                    "url": "./img/peli2.jpg",
+                    "style": ""
+                }
+            }
+        ]
+    },
+    "3": {
+        "titulo_general": "El Señor de los Anillos: El Retorno del Rey",
+        "apartados": [
+            {
+                "contenido": [
+                    "El Retorno del Rey es el tercer y último libro de la trilogía de El Señor de los Anillos de J.R.R. Tolkien. La historia concluye la épica lucha entre las fuerzas del bien y el mal en la Tierra Media, y sigue a los héroes en su esfuerzo final por derrotar a Sauron y destruir el Anillo Único.",
+                    "El libro comienza con Gandalf y Pippin llegando a Minas Tirith, la capital del reino de Gondor, para advertir al senescal Denethor del inminente ataque de Sauron. Denethor, desesperado por la aparente muerte de su hijo Boromir, está deprimido y desconfiado, lo que debilita la moral de la ciudad. Mientras tanto, Sauron lanza su asalto masivo contra Gondor, con el ejército del rey-brujo de Angmar al mando.",
+                    "Aragorn, consciente de la gravedad de la situación, toma el camino de los muertos a través de la Puerta de los Muertos, un antiguo y temido lugar donde convoca a los espíritus de los Hombres Muertos, quienes juraron lealtad a su antepasado, Isildur, pero no cumplieron su promesa. Con la ayuda de estos espíritus, Aragorn consigue una flota de barcos enemigos y navega hacia Minas Tirith para ayudar en la batalla.",
+                    "Mientras tanto, la Batalla de los Campos del Pelennor comienza cuando los ejércitos de Sauron atacan la ciudad. Los defensores de Gondor luchan valientemente, pero están al borde de la derrota hasta que llega Théoden, rey de Rohan, con sus tropas. La llegada de los rohirrim cambia el curso de la batalla, pero Théoden cae en combate, y su sobrina Éowyn, disfrazada de soldado, junto con Merry, logran derrotar al rey-brujo de Angmar.",
+                    "Finalmente, Aragorn llega con sus refuerzos y los ejércitos de Sauron son derrotados en los Campos del Pelennor, pero la guerra está lejos de terminar, ya que Sauron sigue siendo una amenaza mientras el Anillo exista.",
+                    "Mientras los ejércitos de los pueblos libres luchan en Gondor, Frodo y Sam continúan su peligroso viaje hacia Mordor para destruir el Anillo en el Monte del Destino. Guiados por Gollum, atraviesan las tierras áridas y desoladas de Mordor. Gollum, aunque en apariencia sigue ayudando a los hobbits, planea traicionarlos y recuperar el Anillo para sí mismo.",
+                    "Frodo y Sam llegan a las llanuras de Gorgoroth, dentro de Mordor, pero Frodo está cada vez más débil debido al poder corruptor del Anillo. Finalmente, después de un largo y agotador viaje, logran llegar al Monte del Destino. En el momento crucial, Frodo, tentado por el Anillo, decide no destruirlo y reclama el Anillo para sí mismo. Sin embargo, Gollum interviene, atacando a Frodo y, en su lucha por el Anillo, muerde el dedo de Frodo y lo recupera, solo para caer accidentalmente en las llamas del Monte del Destino. De esta manera, el Anillo es destruido, lo que provoca la caída definitiva de Sauron y el colapso de su ejército.",
+                    "Con la destrucción del Anillo, las fuerzas de Sauron se desmoronan y la victoria de los pueblos libres está asegurada. Aragorn es coronado rey de Gondor y Arnor, asumiendo su lugar legítimo como rey y restaurando la gloria de los reinos de los hombres. También se casa con Arwen, la hija de Elrond, cumpliendo la promesa de su amor.",
+                    "Frodo y Sam son rescatados por Gandalf y las Águilas tras la destrucción del Anillo y, junto con los demás miembros de la Comunidad, regresan a Gondor para asistir a la coronación de Aragorn y la celebración de la victoria. Luego, todos comienzan su regreso a la Comarca.",
+                    "Cuando los hobbits regresan a la Comarca, descubren que Saruman ha escapado de su prisión y ha tomado control de su tierra, causando caos y destrucción. Con la valentía y la experiencia adquiridas en sus aventuras, Frodo, Sam, Merry y Pippin lideran a los hobbits en una rebelión para expulsar a Saruman y sus secuaces, restaurando la paz en la Comarca. Saruman es asesinado por Gríma, quien luego es también asesinado.",
+                    "Aunque la Comarca vuelve a ser un lugar de paz, Frodo sigue sufriendo las secuelas de sus heridas físicas y emocionales. Al final del libro, decide partir hacia las Tierras Imperecederas junto con Bilbo, Gandalf, Elrond y Galadriel, dejando la Tierra Media para encontrar paz. Sam, Merry y Pippin regresan a la Comarca, y Sam asume su vida como jardinero y familia, cerrando el ciclo de la historia."
+                ],
+                "imagen": {
+                    "url": "./img/libro3.png",
+                    "style": ""
+                }
+            },
+            {
+                "titulo": "Adaptaciones al cine",
+                "contenido": [
+                    "&quot;El Señor de los Anillos: El Retorno del Rey&quot; ha tenido una adaptación cinematográfica de gran escala dirigida por Peter Jackson en 2003. Es la tercera y última película de la trilogía basada en las novelas de El Señor de los Anillos de J.R.R. Tolkien.",
+                    "La épica conclusión de la trilogía sigue a Frodo y Sam en su misión final para destruir el Anillo Único en el Monte del Destino, mientras luchan contra el poder corruptor del Anillo y la traición de Gollum. Paralelamente, Aragorn asume su rol como rey legítimo de Gondor y lidera a los hombres de Rohan y Gondor en una desesperada batalla contra Sauron en los Campos del Pelennor.",
+                    "Para distraer a Sauron y dar a Frodo una oportunidad, Aragorn lleva sus fuerzas hacia las Puertas Negras de Mordor. Finalmente, el Anillo es destruido y Sauron es derrotado. La historia cierra con el regreso de la paz y la coronación de Aragorn, mientras Frodo parte hacia las Tierras Imperecederas.",
+                    {
+                        "tipo": "lista",
+                        "titulo": "Características de la adaptación:",
+                        "lineas": [
+                            {
+                                "li": "Película: El Señor de los Anillos: El Retorno del Rey (2003)"
+                            },
+                            {
+                                "li": "Dirección: Peter Jackson"
+                            },
+                            {
+                                "li": "Adaptación: Esta es una adaptación directa del tercer libro de la trilogía, El Retorno del Rey, que narra la conclusión de la épica lucha por la Tierra Media. La película sigue la culminación del viaje de Frodo Bolsón para destruir el Anillo Único en el Monte del Destino, mientras el resto de la Comunidad se enfrenta a las fuerzas de Sauron en la batalla final por la libertad de la Tierra Media. Destacan los eventos en Gondor, la Batalla de los Campos del Pelennor, la coronación de Aragorn como Rey de Gondor, y el destino final de Gollum y el Anillo."
+                            }
+                        ]
+                    },
+                    "Aunque ha habido versiones posteriores de la película en diferentes formatos (como la edición extendida, que incluye escenas adicionales y detalles del libro), la adaptación cinematográfica principal es una sola película que cubre los eventos clave del tercer libro de la trilogía de El Señor de los Anillos.",
+                    "La película fue aclamada por la crítica y el público, ganando 11 premios Óscar, incluidos Mejor Película y Mejor Director, un logro histórico en la industria cinematográfica."
+                ],
+                "imagen": {
+                    "url": "./img/peli3.png",
+                    "style": ""
+                }
+            }
+        ]
+    },
+    "otros": {
+        "titulo_general": "Otras obras de J.R.R. Tolkien",
+        "apartados": [
+            {
+                "contenido": [
+                    "Más allá de El Señor de los Anillos y El Hobbit, J.R.R. Tolkien a creado un vasto y fascinante mundo. Aunque estas dos obras son las más conocidas, el legado de Tolkien se extiende mucho más allá, con un complejo y rico legendarium que abarca mitologías, historias, lenguas y culturas de una Tierra Media profundamente desarrollada. Desde los relatos épicos de El Silmarillion hasta los cuentos más íntimos y detallados de Los Hijos de Húrin y Beren y Lúthien, aquí descubrirás las historias antiguas y heroicas que forjan los cimientos del mundo que Tolkien imaginó. Acompáñanos en este viaje a través de la Primera y Segunda Edad de la Tierra Media, y explora el vasto entramado de personajes, leyendas y paisajes que moldearon el destino de Arda, desde la creación del mundo hasta las grandes batallas entre el bien y el mal.",
+                    "Aquí te presentamos un par de las obras más emblemáticas de J.R.R. Tolkien, que nos sumergen en los mitos y leyendas ancestrales de la Tierra Media, mostrando su capacidad única para crear mundos llenos de profundidad, heroísmo y tragedia."
+                ],
+                "imagen": {
+                    "url": "./img/otros0.png",
+                    "style": ""
+                }
+            },
+            {
+                "contenido": [
+                    {
+                        "tipo": "lista",
+                        "lineas": [
+                            {
+                                "tipo": "lista",
+                                "titulo": "El Silmarillion",
+                                "lineas": [
+                                    {
+                                        "li": "Título original: The Silmarillion"
+                                    },
+                                    {
+                                        "li": "Autor: J.R.R. Tolkien"
+                                    },
+                                    {
+                                        "li": "Fecha de publicación: 15 de septiembre de 1977 (publicado póstumamente)"
+                                    },
+                                    {
+                                        "li": "Género: Alta fantasía, mitología"
+                                    },
+                                    {
+                                        "li": "Idioma original: Inglés"
+                                    },
+                                    {
+                                        "li": "Páginas: Aproximadamente 365 (varía según la edición)"
+                                    }
+                                ],
+                                "contenido":  [
+                                    "El Silmarillion es una obra fundamental dentro del legendarium de J.R.R. Tolkien, que narra la creación y los primeros tiempos de la Tierra Media, mucho antes de los eventos de El Hobbit y El Señor de los Anillos. Se compone de varios relatos interconectados que cuentan las edades más antiguas de Arda, el mundo creado por Ilúvatar, y los conflictos que surgen entre los Valar (seres angelicales) y Melkor, el primero y más poderoso de los Ainur que se rebeló y luego se convirtió en Morgoth, el Señor Oscuro original.",
+                                    "La obra se centra principalmente en la historia de los Silmarils, tres gemas de inmenso poder creadas por Fëanor, el más talentoso de los elfos noldor. Los Silmarils son robados por Morgoth, lo que desencadena una guerra interminable entre él y los elfos que buscan recuperarlos. Esta guerra marca el destino de muchas de las razas de la Tierra Media, incluidas los elfos, hombres, enanos y otras criaturas.",
+                                    "A través de estas historias, El Silmarillion ofrece un profundo contexto mitológico para el universo de la Tierra Media, explorando temas como la ambición, la traición, el sacrificio y la lucha interminable entre el bien y el mal. La obra es una muestra del talento de Tolkien como creador de mundos y su capacidad para tejer complejas mitologías y narrativas épicas, mostrando el alcance completo de su imaginación y erudición."
+                                ],
+                                "imagen": {
+                                    "url": "./img/otrosLibros1.png",
+                                    "style": ""
+                                }
+                            },
+                            {
+                                "tipo": "lista",
+                                "titulo": "Cuentos Inconclusos de Númenor y la Tierra Media",
+                                "lineas": [
+                                    {
+                                        "li": "Título original: Unfinished Tales of Númenor and Middle-earth"
+                                    },
+                                    {
+                                        "li": "Autor: J.R.R. Tolkien"
+                                    },
+                                    {
+                                        "li": "Fecha de publicación: 1980"
+                                    },
+                                    {
+                                        "li": "Género: Fantasía épica"
+                                    },
+                                    {
+                                        "li": "Idioma original: Inglés"
+                                    },
+                                    {
+                                        "li": "Páginas: Aproximadamente 503 páginas (varía según la edición)"
+                                    }
+                                ],
+                                "contenido":  [
+                                    "Los Cuentos Inconclusos de Númenor y la Tierra Media es una colección de relatos y ensayos que J.R.R. Tolkien dejó sin terminar o sin integrar completamente en sus principales obras publicadas. Editado por su hijo, Christopher Tolkien, el libro ofrece una mirada más detallada y profunda a eventos, personajes y lugares de las distintas edades de la Tierra Media, incluyendo historias complementarias a El Señor de los Anillos y El Silmarillion.",
+                                    "El libro está dividido en cuatro partes principales, que abarcan la Primera, Segunda y Tercera Edad de la Tierra Media:",
+                                    {
+                                        "tipo": "lista_ordenada",
+                                        "lineas": [
+                                            {
+                                                "li": "Primera Edad: Relatos relacionados con los elfos y las grandes tragedias de esa era, como la historia de Tuor y su llegada a Gondolin."
+                                            },
+                                            {
+                                                "li": "Segunda Edad: Aquí destacan los escritos sobre Númenor, la gran isla de los Hombres que luego cayó en la corrupción, y Sauron en su primera aparición como enemigo de los pueblos libres."
+                                            },
+                                            {
+                                                "li": "Tercera Edad: Relatos que complementan El Señor de los Anillos, como la búsqueda de los Nazgûl para encontrar a Gollum, la batalla de los Vados del Isen, y una versión más extendida del viaje de Gandalf a Isengard."
+                                            },
+                                            {
+                                                "li": "Ensayos sobre las lenguas y la cultura de la Tierra Media: La obra incluye explicaciones sobre el sistema de los Istari (los magos como Gandalf), y detalles sobre los palantíri, las piedras videntes."
+                                            }
+                                        ]
+                                    },
+                                    "Aunque muchos de los relatos están incompletos o presentan variantes de historias que se conocen en otras obras, Cuentos Inconclusos es valioso por la cantidad de información adicional que proporciona sobre el vasto universo de Tolkien. Los lectores que disfrutan explorando los rincones más ocultos y misteriosos de la mitología de la Tierra Media encontrarán en esta obra una fuente indispensable para expandir su comprensión de las grandes historias de Tolkien."
+                                ],
+                                "imagen": {
+                                    "url": "./img/otrosLibros2.png",
+                                    "style": ""
+                                }
+                            },
+                            {
+                                "tipo": "lista",
+                                "titulo": "La Historia de la Tierra Media",
+                                "lineas": [
+                                    {
+                                        "li": "Título original: The History of Middle-earth"
+                                    },
+                                    {
+                                        "li": "Autor: J.R.R. Tolkien (editado por Christopher Tolkien)"
+                                    },
+                                    {
+                                        "li": "Fecha de publicación: 1983–1996 (publicado póstumamente en 12 volúmenes)"
+                                    },
+                                    {
+                                        "li": "Género: Mitología ficticia, ensayo literario"
+                                    },
+                                    {
+                                        "li": "Idioma original: Inglés"
+                                    },
+                                    {
+                                        "li": "Volúmenes: 12"
+                                    }
+                                ],
+                                "contenido": [
+                                    "La Historia de la Tierra Media es una extensa colección de libros editados por Christopher Tolkien a partir de los manuscritos, borradores y notas de su padre. La obra muestra el proceso creativo mediante el cual J.R.R. Tolkien construyó su legendarium a lo largo de varias décadas, desde sus primeros relatos mitológicos hasta las versiones finales de El Señor de los Anillos y El Silmarillion.",
+                                    "A diferencia de las novelas tradicionales, la colección no presenta una narración lineal única, sino múltiples versiones de las mismas historias. El lector puede observar cómo evolucionan personajes, lugares y acontecimientos, incluyendo cambios en la cosmología del mundo, en la naturaleza de los elfos y los hombres, y en el papel de figuras como Sauron o Morgoth.",
+                                    {
+                                        "tipo": "lista_ordenada",
+                                        "lineas": [
+                                            {
+                                                "li": "Primeros mitos: versiones tempranas de los relatos de la Primera Edad y del origen del mundo."
+                                            },
+                                            {
+                                                "li": "Desarrollo del legendarium: transformación de los relatos hasta convertirse en El Silmarillion."
+                                            },
+                                            {
+                                                "li": "Escritura de El Señor de los Anillos: borradores, cambios de trama y evolución de personajes como Aragorn, Gandalf o Gollum."
+                                            },
+                                            {
+                                                "li": "Ensayos lingüísticos y filosóficos: textos sobre lenguas, metafísica y naturaleza del mundo creado por Tolkien."
+                                            }
+                                        ]
+                                    },
+                                    "La colección es especialmente valiosa para estudiosos y lectores avanzados, ya que permite comprender la profundidad intelectual del proyecto literario de Tolkien. Revela que la Tierra Media no fue concebida de una sola vez, sino desarrollada gradualmente mediante revisiones constantes, mostrando la extraordinaria complejidad y coherencia interna del universo creado por el autor."
+                                ],
+                                "imagen": {
+                                    "url": "./img/otrosLibros3.jpg",
+                                    "style": ""
+                                }
+                            },
+                            {
+                                "tipo": "lista",
+                                "titulo": "Las aventuras de Tom Bombadil y otros poemas de El Libro Rojo",
+                                "lineas": [
+                                    {
+                                        "li": "Título original: The Adventures of Tom Bombadil and Other Verses from the Red Book"
+                                    },
+                                    {
+                                        "li": "Autor: J.R.R. Tolkien"
+                                    },
+                                    {
+                                        "li": "Fecha de publicación: 1962"
+                                    },
+                                    {
+                                        "li": "Género: Poesía fantástica"
+                                    },
+                                    {
+                                        "li": "Idioma original: Inglés"
+                                    },
+                                    {
+                                        "li": "Páginas: Aproximadamente 64 (en la edición original)"
+                                    }
+                                ],
+                                "contenido":  [
+                                    "Las aventuras de Tom Bombadil y otros poemas de El Libro Rojo es una colección de poemas escritos por J.R.R. Tolkien, muchos de los cuales están ambientados en la Tierra Media. A pesar de que no tiene la estructura narrativa de novelas como El Hobbit o El Señor de los Anillos, esta obra ofrece un vistazo único a personajes y rincones menos conocidos del legendarium tolkieniano.",
+                                    "El libro incluye un total de 16 poemas, de los cuales dos están dedicados a las aventuras de Tom Bombadil, un enigmático personaje que aparece brevemente en El Señor de los Anillos. Tom Bombadil es presentado como una figura alegre y despreocupada, con una conexión profunda con la naturaleza y los seres que habitan su entorno.",
+                                    "Los demás poemas cubren una variedad de temas y personajes, como hobbits, elfos y criaturas mágicas. Aunque algunos están inspirados en las leyendas y mitologías de la Tierra Media, otros son más lúdicos y tienen un tono más ligero. Entre los más destacados se encuentran El Múmak, que trata sobre los grandes elefantes de la Tierra Media, y La Gata del Guardavía, que describe la vida cotidiana en la Comarca.",
+                                    "El conjunto de poemas está vinculado a El Libro Rojo de la Frontera del Oeste, un manuscrito ficticio dentro del universo de Tolkien que contiene las memorias y crónicas de hobbits, incluidas las de Frodo y Bilbo Bolsón. Por tanto, Las aventuras de Tom Bombadil se presenta como un reflejo de la rica tradición oral y poética de los hobbits, aunque también incluye otros relatos y temas que no están directamente relacionados con los eventos principales de la trilogía.",
+                                    "Este libro es una deliciosa incursión en el folclore de la Tierra Media, ofreciendo a los lectores una forma más lírica y liviana de explorar el mundo que Tolkien creó, a través de versos que juegan con las rimas, el humor y la fantasía."
+                                ],
+                                "imagen": {
+                                    "url": "./img/otrosLibros4.png",
+                                    "style": ""
+                                }
+                            },
+                            {
+                                "tipo": "lista",
+                                "titulo": "Serie: El Señor de los Anillos: los Anillos de Poder",
+                                "lineas": [
+                                    {
+                                        "li": "Título original: The SilmarillionTítulo original: The Lord of the Rings: The Rings of Power"
+                                    },
+                                    {
+                                        "li": "Autor: J.R.R. Tolkien"
+                                    },
+                                    {
+                                        "li": "Fecha de publicación: 2 de septiembre de 2022"
+                                    },
+                                    {
+                                        "li": "Género: Fantasía épica"
+                                    },
+                                    {
+                                        "li": "Idioma original: Inglés"
+                                    },
+                                    {
+                                        "li": "Episodios: 2 temporadas, con 8 capitulos cada una"
+                                    }
+                                ],
+                                "contenido":  [
+                                    "&quot;Los Anillos de Poder&quot; no es una obra independiente de Tolkien, sino una parte esencial de su legendarium, detallada principalmente principalmente en:",
+                                    {
+                                        "tipo": "lista",
+                                        "lineas": [
+                                            {
+                                                "li": "El Silmarillion (publicado póstumamente en 1977, compilado por Christopher Tolkien)"
+                                            },
+                                            {
+                                                "li": "Los Cuentos Inconclusos de Númenor y la Tierra Media (1980)"
+                                            },
+                                            {
+                                                "li": "Fragmentos en La Historia de la Tierra Media (volúmenes editados entre 1983 y 1996)"
+                                            }
+                                        ]
+                                    },
+                                    "&quot;El Señor de los Anillos: Los Anillos de Poder&quot; es el término que engloba la historia de la creación y el destino de los anillos mágicos en la Tierra Media, en particular el Anillo Único de Sauron y los otros Grandes Anillos entregados a los Elfos, Enanos y Hombres. Este relato se sitúa durante la Segunda Edad, una época de grandes eventos que culmina en la primera derrota de Sauron, anterior a los hechos narrados en El Señor de los Anillos.",
+                                    "La historia comienza con la creación de los Anillos de Poder por los elfos herreros de Eregion, guiados por Celebrimbor, quien fue engañado por Sauron, disfrazado bajo el nombre de Annatar, el &quot;Señor de los Dones&quot;. Juntos, forjan los Grandes Anillos: tres para los Elfos, siete para los Enanos y nueve para los Hombres. Sin embargo, en secreto, Sauron forja el Anillo Único en los fuegos del Monte del Destino, un artefacto destinado a controlar a todos los demás Anillos y sus portadores.",
+                                    "La historia explora cómo los diferentes Anillos afectan a sus portadores y las civilizaciones de la Tierra Media. Los Tres Anillos élficos permanecen ocultos, fuera del control de Sauron, pero los Nueve corrompen a los hombres, transformándolos en los Nazgûl, los siervos inmortales de Sauron. Los Siete otorgados a los Enanos no logran someterlos como Sauron esperaba, pero provocan una insaciable codicia que lleva a la ruina de sus reinos.",
+                                    "Eventualmente, la traición de Sauron se revela y desencadena una guerra contra los elfos, lo que culmina en la caída del reino de Eregion y la dispersión de los elfos que lo habitan. La historia también abarca el ascenso y caída del poderoso reino de Númenor, cuyos reyes sucumben a la influencia de Sauron, y la fundación de los reinos de Gondor y Arnor en la Tierra Media.",
+                                    "El relato alcanza su clímax con la Última Alianza entre Elfos y Hombres, liderada por Elendil y Gil-galad, quienes enfrentan a Sauron en la batalla decisiva que culmina con la derrota temporal de Sauron y la captura del Anillo Único por Isildur.",
+                                    "Esta saga épica, que abarca siglos de historia, constituye el núcleo del conflicto de la Tierra Media y la lucha por la libertad de sus habitantes, dando contexto a los eventos que se desarrollarán en El Señor de los Anillos."
+                                ],
+                                "imagen": {
+                                    "url": "./img/otrosLibros5.png",
+                                    "style": ""
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    } 
+}
