@@ -1,11 +1,27 @@
-body  {
-    font-family: 'Roboto', sans-serif;           
+/* =============================================================================
+   VARIABLES GLOBALES
+   Colores, dimensiones y tipografía reutilizables en toda la hoja de estilos
+============================================================================= */
+:root {
+    --bg-dark:      #0f1115;
+    --accent-gold:  #cfaa63;
+    --menu-width:   280px;
+}
+
+
+/* =============================================================================
+   ESTILOS BASE DEL BODY
+   Fondo con imagen fija, overlay de desenfoque y tipografía principal
+============================================================================= */
+body {
+    font-family: 'Roboto', sans-serif;
     background-color: #2e303d;
     color: white;
     background: url('./img/fondo.jpg') center / cover fixed;
     margin: 0;
 }
-body::before  {
+
+body::before {
     content: "";
     position: fixed;
     inset: 0;
@@ -13,6 +29,12 @@ body::before  {
     backdrop-filter: blur(8px);
     z-index: -1;
 }
+
+
+/* =============================================================================
+   CABECERA PRINCIPAL
+   Barra sticky superior que contiene el botón de menú, el logo y el título
+============================================================================= */
 header {
     background: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -23,53 +45,45 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 500; /* Por debajo del menú pero encima del contenido */
+    z-index: 500;
 }
+
 .cabecera {
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 15px; /* Espacio entre botón, logo y título */
+    gap: 15px;
 }
+
 header h1 {
     margin: 0;
     font-size: 40px;
     font-weight: 700;
 }
-.logo  {
-    transition: 0.5s;
+
+/* Logo: imagen clicable que lleva a inicio */
+.logo {
     background-color: transparent;
     border: transparent;
     padding: 0;
     display: flex;
     align-items: center;
     cursor: pointer;
-
     transition: all 0.4s ease;
 }
-.logo:hover  {
+.logo:hover {
     transform: scale(1.08);
     filter: drop-shadow(0 0 5px rgba(207, 170, 99, 0.4));
 }
-.logo img  {
-    height: 80px; /* Ajustado para que cuadre con el header */
+.logo img {
+    height: 80px;
     width: auto;
 }
 
-/**************************************************************************************/
-/**************************************************************************************/
-/**************************************************************************************/
-/**************************************************************************************/
-/**************************************************************************************/
-
-:root {
-    --bg-dark: #0f1115;
-    --accent-gold: #cfaa63;
-    --menu-width: 280px;
-}
+/* Botón ☰ para abrir/cerrar el menú lateral */
 .boton_menu {
     background: transparent;
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     color: var(--text-main);
     padding: 5px 10px;
     font-size: 30px;
@@ -79,7 +93,6 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     transition: all 0.4s ease;
 }
 .boton_menu:hover {
@@ -87,32 +100,51 @@ header h1 {
     color: var(--accent-gold);
     filter: drop-shadow(0 0 5px rgba(207, 170, 99, 0.4));
 }
+
+
+/* =============================================================================
+   LAYOUT PRINCIPAL
+   Contenedor flex que agrupa el menú lateral y el área de contenido
+============================================================================= */
 .contenido {
     display: flex;
     width: 100%;
-    min-height: calc(100vh - 60px); /* Restamos la altura de la top-bar */
+    min-height: calc(100vh - 60px);
 }
+
+/* Deshabilita clics en el contenido mientras el menú está abierto */
+.contenido:not(.menu_oculto) main {
+    pointer-events: none;
+}
+
+
+/* =============================================================================
+   OVERLAY
+   Capa semitransparente que oscurece el fondo al abrir el menú lateral
+============================================================================= */
 .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Oscurece el fondo */
-    z-index: 999; /* Justo debajo del menú */
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s ease;
-    backdrop-filter: blur(2px); /* Efecto borroso opcional */
+    backdrop-filter: blur(2px);
 }
 .overlay.activo {
     opacity: 1;
     visibility: visible;
 }
-body.menu-abierto .overlay {
-    opacity: 1;
-    visibility: visible;
-}
+
+
+/* =============================================================================
+   MENÚ LATERAL
+   Panel deslizante con navegación por secciones. Se oculta con translateX
+============================================================================= */
 .menu {
     position: fixed;
     top: 0;
@@ -122,42 +154,42 @@ body.menu-abierto .overlay {
     width: var(--menu-width);
     height: 100vh;
     background: #1a1a1d;
-    z-index: 1000; /* Por encima de todo */
+    z-index: 1000;
     overflow-y: auto;
-    box-shadow: 2px 0 15px rgba(0,0,0,0.5);
-    
-    /* Animación de deslizamiento */
-    transform: translateX(0); 
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
+    transform: translateX(0);
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    
     display: flex;
     flex-direction: column;
 }
-.menu_header  {
+
+/* El menú se oculta deslizándose fuera de la pantalla */
+.contenido.menu_oculto .menu {
+    transform: translateX(-100%);
+}
+
+/* Título/logo del menú */
+.menu_header {
     font-family: 'Cinzel', serif;
     color: var(--accent-gold);
     white-space: nowrap;
-
     width: 100%;
     background: none;
     border: none;
-
     padding: 12px 25px;
     font-size: 34px;
     text-align: center;
     cursor: pointer;
-
-    border-bottom: 3px solid transparent; 
+    border-bottom: 3px solid transparent;
     transition: all 0.4s ease;
 }
 .menu_header:hover {
-    text-shadow: 0 0 1px var(--accent-gold); 
+    text-shadow: 0 0 1px var(--accent-gold);
     border-bottom: 3px solid var(--accent-gold);
     filter: drop-shadow(0 0 5px rgba(207, 170, 99, 0.4));
 }
-.contenido.menu_oculto .menu {
-    transform: translateX(-100%);
-}
+
+/* Etiqueta separadora de grupos de opciones */
 .separador {
     color: #888;
     margin: 1.5rem 0 0.5rem;
@@ -166,6 +198,8 @@ body.menu-abierto .overlay {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+/* Ítem de navegación individual */
 .elemento_menu {
     width: 100%;
     background: none;
@@ -175,32 +209,81 @@ body.menu-abierto .overlay {
     font-size: 15px;
     text-align: left;
     cursor: pointer;
-    font-family: 'Roboto', sans-serif; /* Más legible para menús modernos */
+    font-family: 'Roboto', sans-serif;
     border-left: 3px solid transparent;
     transition: all 0.4s ease;
 }
 .elemento_menu:hover {
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     color: white;
     border-left: 3px solid var(--accent-gold);
     filter: drop-shadow(0 0 5px rgba(207, 170, 99, 0.4));
 }
-main  {
+
+
+/* =============================================================================
+   ÁREA DE CONTENIDO PRINCIPAL
+   Zona donde se inyecta el HTML generado dinámicamente por script.js
+============================================================================= */
+main {
     padding: 2rem;
     transition: all 0.3s ease;
 }
-.contenido:not(.menu_oculto) main {
-   pointer-events: none;
-}
-table img  {
+
+table img {
     width: 200px;
 }
-img {
-    width: 100%;
-    padding-right: 50px;
-}
+
 ul {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+/* =============================================================================
+   CLASES DE POSICIONAMIENTO DE IMÁGENES
+   Permiten controlar el layout de cada imagen desde el JSON (campo "style")
+============================================================================= */
+.img {
+    width: 90%;
+    margin: 0 5% 25px 5%;
+    border-radius: 8px;
+}
+
+.grip_container-d {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.grip_container-i {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.grip {
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .grip_container-i {
+        grid-template-columns: 1fr;
+    }
+
+    .grip_container-d {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Limpia los floats al final de cada sección con imagen */
+main h1 {
+    clear: both;
 }

@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legendarium</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    <!-- Fuentes externas -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- =====================================================================
+         CABECERA PRINCIPAL
+         Barra fija superior con: botón de menú, logo y título de la app
+    ====================================================================== -->
     <header>
         <div class="cabecera">
             <button id="boton_menu" class="boton_menu">☰</button>
@@ -17,9 +23,16 @@
         </div>
     </header>
 
+    <!-- Capa oscura que aparece al abrir el menú lateral (cierra el menú al hacer clic) -->
     <div id="overlay" class="overlay"></div>
 
+    <!-- =====================================================================
+         LAYOUT PRINCIPAL: MENÚ LATERAL + CONTENIDO
+         El menú se oculta/muestra añadiendo/quitando la clase "menu_oculto"
+    ====================================================================== -->
     <div id="contenido" class="contenido menu_oculto">
+
+        <!-- Menú lateral de navegación -->
         <nav class="menu" id="menu">
             <button class="menu_header" data-seccion="inicio">Legendarium</button>
 
@@ -33,23 +46,13 @@
             <button class="elemento_menu" data-seccion="otros">Otras Obras</button>
         </nav>
 
+        <!-- Área de contenido dinámico (se rellena por script.js) -->
         <main>
             <div id="contenido_container"></div>
-            <div id="personajes_grid" class="personajes_grid"></div>
         </main>
+
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-<!--
-Esta incompleto, le falta estilo de las imagenes, agregar tarjetas 
-(que la info salga en un cuadrado de distinto color), personajes y razas
-+ Añadir que automaticamente al cambiar de pagina vuelva al inicio de la 
-pagina, ahora se queda donde acaba el scroll
-+ Añadir que el menu se cierre de forma automatica al cambiar de pagina
-+ Responcive
-Revisar estructura JSON para ver si se puede simplificar
-Hacer lo mismo con react (frankwork)
--->
